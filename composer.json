@@ -1,13 +1,12 @@
 {
     "name": "alfaexchange/laravel-package",
-    "description": "Laravel SDK package for working with the alfaxchange.com API",
+    "description": "Laravel SDK package for working with the alfaexchange.io API",
     "keywords": [
         "alfaexchange",
         "currency",
         "currency-rates",
         "exchange-rates",
         "currency-conversion",
-        "currency",
         "currency-exchange-rates",
         "composer-package",
         "currency-converter-php",
@@ -49,12 +48,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Alfaxchange\\Api\\": "src/"
+            "AlfaExchange\\Api\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Alfaxchange\\Tests\\": "tests/"
+            "AlfaExchange\\Tests\\": "tests/"
         }
     },
     "require": {

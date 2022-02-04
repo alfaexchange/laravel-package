@@ -1,11 +1,11 @@
-# <a href="https://alfaexchnage.io" target="_blank"><img src="https://avatars2.githubusercontent.com/u/87022758?s=20&v=4" width="20"></a> Alfaxchange Laravel SDK Package
+# <a href="https://alfaexchnage.io" target="_blank"><img src="https://avatars2.githubusercontent.com/u/87022758?s=20&v=4" width="20"></a> alfaexchange Laravel SDK Package
 
 [![Build Status](https://travis-ci.com/alfaexchange/laravel-package.svg?token=E8WZTvpNHoqu5bG7wouf&branch=master)](https://travis-ci.com/alfaexchange/laravel-package)
 [![Latest Stable Version](https://poser.pugx.org/alfaexchange/laravel-package/v)](//packagist.org/packages/alfaexchange/laravel-package)
 [![Total Downloads](https://poser.pugx.org/alfaexchange/laravel-package/downloads)](//packagist.org/packages/alfaexchange/laravel-package)
 [![License](https://poser.pugx.org/alfaexchange/laravel-package/license)](//packagist.org/packages/alfaexchange/laravel-package)
 
-*Alfaxchange Laravel Package* - PHP SDK [Laravel](https://github.com/laravel/laravel) for work with [Alfa Exchnage](https://www.alfaexchnage.io/).
+*alfaexchange Laravel Package* - PHP SDK [Laravel](https://github.com/laravel/laravel) for work with [Alfa Exchange](https://www.alfaexchnage.io/).
 
 - [Introduction](#introduction)
 - [Install](#install)
@@ -14,10 +14,10 @@
     - [Latest](#latest)
 
 # Introduction
-The [laravel-alfaxchange](https://github.com/alfaexchange/laravel-package) package allows you to build web and console applications based on [Laravel](https://github.com/laravel/laravel) framework that integrate with your [Alfa Exchange](https://alfaxchange.com) account.
+The [laravel-alfaexchange](https://github.com/alfaexchange/laravel-package) package allows you to build web and console applications based on [Laravel](https://github.com/laravel/laravel) framework that integrate with your [Alfa Exchange](https://alfaexchange.com) account.
 With over 15 exchange rate data sources, the Alfa Exchange API is delivering exchanging rates data for more than 170 world currencies. This API has several endpoints, where each of them serves a different purpose, use case. The endpoints include functionalities like receiving the latest exchange rates information for a specific set, or for all currencies; conversion from one to another currency; receiving data Time-series for multiple or for one currency, and preserving the API daily for the fluctuation data.
 
-With [laravel-alfaxchange](https://github.com/alfaexchange/laravel-package) API SDK you can:
+With [laravel-alfaexchange](https://github.com/alfaexchange/laravel-package) API SDK you can:
  - Obtain real-time, accurate and reliable currency exchange rate data for hundreds of worldwide currencies, updated as often as every 60 seconds.
  - Our API is integrated with a number of highly reputable foreign exchange rate sources, offering the most recent and accurate rates for 200+ pairs.
  - Make use of a scalable infrastructure that can handle anything from a few requests a day up to thousands of API requests per second.
@@ -29,7 +29,7 @@ To install you can install the package via composer
 composer require alfaexchange/laravel-package
 ```
 
-You should publish the migration and the `config/alfaxchange.php` config file with
+You should publish the migration and the `config/alfaexchange.php` config file with
 
 ```shell script
 php artisan vendor:publish --provider="AlfaExchange\Api\AlfaExchangeServiceProvider"
