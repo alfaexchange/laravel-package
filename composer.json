@@ -1,0 +1,81 @@
+{
+    "name": "alfaexchange/laravel-package",
+    "description": "Laravel SDK package for working with the alfaxchange.com API",
+    "keywords": [
+        "alfaexchange",
+        "currency",
+        "currency-rates",
+        "exchange-rates",
+        "currency-conversion",
+        "currency",
+        "currency-exchange-rates",
+        "composer-package",
+        "currency-converter-php",
+        "currency-api",
+        "exchange-rates",
+        "currency-rate-apis",
+        "fluent-interface",
+        "currency-converter",
+        "currency-conversion",
+        "currency-exchange",
+        "exchange-rate-api",
+        "exchange-rates-api",
+        "php-package",
+        "php8",
+        "php74",
+        "php73",
+        "php-library",
+        "laravel",
+        "laravel-package",
+        "sdk"
+    ],
+    "type": "laravel-package",
+    "license": "MIT",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Dmitry Kovalev",
+            "email": "d.kovalev@expresslanding.com",
+            "homepage": "https://expresslanding.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Alexander Andrusenko",
+            "email": "a.andrusenko@expresslanding.com",
+            "homepage": "https://expresslanding.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Alfaxchange\\Api\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alfaxchange\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4",
+        "orchestra/testbench": "^6.2.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "prefer-stable": true,
+    "extra": {
+        "laravel":{
+            "providers": [
+                "AlfaExchange\\Api\\AlfaExchangeServiceProvider"
+            ]
+        }
+    }
+}
+
